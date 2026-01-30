@@ -13,12 +13,12 @@ The analysis utilises Python to automate the risk calculation process:
 * **Formula:** $VaR_{\alpha} = -Quantile(R, 1-\alpha)$
     * Where $R$ is the vector of daily returns and $\alpha$ is the confidence level (0.95).
 
-## Technology Stack
-* **Python 3.10+**
-* **Pandas & NumPy:** For vectorised calculation of daily returns and statistical quantiles.
+## Technology Stuff
+* **Python 3.12.4**
+* **Pandas & NumPy:** For vectorised calculation of daily returns and quantiles.
 * **Matplotlib:** For visualising the "Fat Tail" risks in return distributions.
 
 ## Key Findings
 **Volatility Spread:** The Tech portfolio demonstrates a significantly higher VaR, implying a higher risk appetite is required to hold these assets.
 **Market Conditions:** In the current high-interest-rate environment, the Banking portfolio shows tighter return variance, offering better capital preservation properties.
-**Diversification:** The analysis confirms that sector-specific concentration increases tail risk. A merged portfolio would likely lower the aggregate VaR due to imperfect correlation between the Tech and Financial sectors.
+**Diversification:** The analysis confirms that sector specific concentration increases tail risk. A merged portfolio would likely lower the aggregate VaR because of imperfect correlation between the Tech and Financial sectors.
