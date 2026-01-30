@@ -1,9 +1,10 @@
 Market Risk Analysis: Tech vs. Banking Portfolios
 Overview
 
-This project quantitatively assesses the risk exposure of two distinct equity portfolios: a Technology portfolio and a Banking portfolio. Using Historical Value at Risk (VaR) on 500 trading days of market data, we simulate potential daily losses to determine which sector exhibits greater downside risk.
+This project quantitatively assesses the risk exposure of two distinct equity portfolios: a Technology portfolio and a Banking portfolio. Using Historical Value at Risk (VaR) on 500 trading days of market data, i simulate potential daily losses to determine which sector exhibits greater downside risk.
 
-Core Question: At 95% confidence, what is the maximum percentage loss each portfolio could face in a single trading day?
+the Question we are trying to answer: At 95% confidence level, what is the maximum percentage loss each portfolio could face in a single trading day?
+
 Methodology
 
 The analysis is implemented in Python and follows these steps:
